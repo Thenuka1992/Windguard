@@ -2,10 +2,9 @@
 
 if (isset($_POST['detectbtn']))
 {
-	exec("cutsTest.py");
-	exec("testLogs.py");
+	exec("detect_anomalies.py");
 }
 
-header('Location:../pages/charts/flot.html');
+header('Location:../index.html');
 
 ?>
